@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css?family=Merienda+One");
+
+html {
+    background-color: #000;
+    background-image: url(https://images.unsplash.com/photo-1531972497489-8eb337acf6e5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=193456e9385b553747a5e0f0cbc7badb&auto=format&fit=crop&w=1334&q=80);
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+button{
+    width: 40vh;
+    height: 5vw;
+    margin: 2%;
+    background-color: red;
+    color: white;
+    font-size: xx-large;
+    border-color: white;
+
+}
+
+input {
+    width: 39.2vh;
+    height: 4.6vw;
+    background-color: lime;
+    color: black;
+    font-size: xx-large;
+    border-color: black;
+
+}
+
+
