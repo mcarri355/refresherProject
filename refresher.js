@@ -5,7 +5,6 @@ let volume = input.map(a => a.split("x").map(x => parseInt(x,10)));
 // part1
 function part1(){
     let total = 0
-
     for(let i=0; i < volume.length; i++){
         let vol = ((volume[i][0])*(volume[i][1])*(volume[i][2]));
         total += vol;
@@ -56,6 +55,5 @@ function part2(){
     }
     document.getElementById("p4").value = `${total} feet of ribbon`
 }
-console.log(part4())
 
 
