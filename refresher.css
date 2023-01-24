@@ -9,6 +9,7 @@ html {
     background-repeat: no-repeat;
     text-align: center;
     color: white;
+    font-family: "christmas";
 }
 
 button{
@@ -19,18 +20,19 @@ button{
     color: white;
     font-size: xx-large;
     border-color: white;
+    font-family: "christmas"
 
 }
 
 input {
     width: 39.2vh;
-
     height: 4.6vw;
     text-align: center;
     background-color: lime;
     color: black;
     font-size: xx-large;
     border-color: black;
+    font-family: "christmas";
 
 }
 
@@ -188,3 +190,7 @@ input {
     color: #000;
 }
 
+@font-face {
+    font-family: "christmas";
+    src: url(./christmas_and_santona/Christmas\ and\ Santona.ttf);
+}
